@@ -1,4 +1,4 @@
-package jds
+package jds.basics
 
 /**
  *  Created by J. Daniel Sobrado
