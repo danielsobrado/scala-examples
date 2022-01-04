@@ -1,0 +1,7 @@
+### Exclude files in github
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
