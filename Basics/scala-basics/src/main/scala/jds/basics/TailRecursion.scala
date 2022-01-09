@@ -28,8 +28,8 @@ object TailRecursion extends App {
   }
 
   // You can add an annotation to ensure that your method is tail recursive
-  @scala.annotation.tailrec
   def factTail(n: BigInt): BigInt = {
+    @scala.annotation.tailrec
     def go(acc: BigInt, n: BigInt): BigInt = {
       if (n <= 1)
         acc
@@ -38,6 +38,7 @@ object TailRecursion extends App {
     }
     go(1, n)
   }
+  
   // The foldLeft and product methods are tail-recursion optimized already
   def factFold(i: BigInt): BigInt = (BigInt(1) to i).foldLeft(BigInt(1))(_ * _)
   def factProduct(i: BigInt): BigInt = (BigInt(1) to i).product

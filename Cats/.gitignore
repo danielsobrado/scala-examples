@@ -1,7 +1,24 @@
-### Exclude files in github
+target/
 
-# IntelliJ project files
+.settings
+.project
+.classpath
+
 .idea
 *.iml
+
+.metals
+.bloop
+
+# Project files
+.settings
+.project
+.classpath
+.idea
+.bloop
+.metals
+target/
+*.iml
+project/
 out
 gen

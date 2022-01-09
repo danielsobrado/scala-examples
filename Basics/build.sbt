@@ -1,0 +1,12 @@
+scalaVersion := "2.13.1"
+
+lazy val root = project
+  .in(file("."))
+  .settings(
+    name := "basics",
+    version := "0.1.0-SNAPSHOT",
+
+    scalaVersion := scalaVersion,
+
+    libraryDependencies += "com.novocode" % "junit-interface" % "0.11" % "test"
+  )
