@@ -1,5 +1,5 @@
-ThisBuild / organization := "com.example"
-ThisBuild / scalaVersion := "3.0.0"
+ThisBuild / organization := "com.jds"
+ThisBuild / scalaVersion := "3.1.0"
 
 lazy val root = (project in file(".")).settings(
   name := "hello-world",
